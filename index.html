@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio creativo de Ale: presentación, habilidades, trabajos y contacto.">
+  <title>Portfolio Ale</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="site-header" id="home">
+    <nav class="navbar" aria-label="Navegación principal">
+      <a class="brand" href="#home" aria-label="Ir al inicio">
+        <img src="marcamare1.png" alt="Marca personal Mare">
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-menu" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="main-menu">
+        <li><a class="nav-link active" href="#home">Menú</a></li>
+        <li><a class="nav-link" href="#about">Sobre mí</a></li>
+        <li><a class="nav-link" href="#skills">Skills</a></li>
+        <li><a class="nav-link" href="#work">Mi trabajo</a></li>
+        <li><a class="nav-link" href="contact.html">contáctame</a></li>
+      </ul>
+
+    </nav>
+
+    <div class="hero" aria-label="Presentación del portafolio">
+      <div class="mail-composition">
+        <div class="postcard-wrap">
+          <img class="postcard" src="postalport.jpg" alt="Postal decorativa con encaje, estrellas y fondo café">
+          <h1 class="portfolio-title">Portafolio</h1>
+        </div>
+        <div class="envelope-front" aria-hidden="true">
+          <p>Ale García</p>
+          <span>Desliza!</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="content-section about-section reveal" id="about">
+      <div class="section-inner about-grid">
+        <div class="about-heading">
+          <p class="eyebrow">Conóceme</p>
+          <h2>Sobre mí</h2>
+          <button class="about-card" type="button" aria-pressed="false">
+            <span class="about-star" aria-hidden="true">✦</span>
+            <img src="fotoale.JPG" alt="Marca personal de Alejandra García">
+            <p>Diseñadora en formación</p>
+            <small>Cochabamba · Bolivia</small>
+          </button>
+        </div>
+        <div class="about-copy">
+          <h3>¡Holi! Soy Alejandra García.</h3>
+          <p class="about-lead">Me gusta convertir <span class="changing-word">ideas</span> en experiencias visuales con
+            personalidad.</p>
+          <div class="about-story-grid">
+            <p><strong>Diseño con intención.</strong> Como estudiante de Diseño Gráfico, disfruto crear marcas y piezas
+              visuales desde el concepto hasta su forma de comunicar.</p>
+            <p><strong>Exploración constante.</strong> El video, el diseño 3D, la web y lo editorial me permiten
+              experimentar con movimiento, composición y narrativa.</p>
+          </div>
+          <div class="about-details">
+            <div class="about-detail">
+              <span aria-hidden="true">01</span>
+              <strong>Mi enfoque</strong>
+              <p>Crear desde cero y dar personalidad a cada proyecto.</p>
+            </div>
+            <div class="about-detail">
+              <span aria-hidden="true">02</span>
+              <strong>Mi proceso</strong>
+              <p>Explorar, conceptualizar, experimentar y comunicar.</p>
+            </div>
+            <div class="about-detail">
+              <span aria-hidden="true">03</span>
+              <strong>Mi ubicación</strong>
+              <p>Cochabamba, Bolivia.</p>
+            </div>
+          </div>
+          <div class="interest-block">
+            <span class="interest-title">Lo que más me gusta</span>
+            <div class="interest-list">
+              <span>Branding</span><span>Audiovisual</span><span>Diseño 3D</span><span>Diseño
+                web</span><span>Editorial</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section skills-section reveal" id="skills">
+      <div class="section-inner">
+        <p class="eyebrow">Lo que hago</p>
+        <h2>Skills</h2>
+        <div class="skills-grid" tabindex="0" aria-label="Habilidades; desliza horizontalmente para ver todas">
+          <article class="skill-card">
+            <span class="card-number">01</span>
+            <div class="skill-card-media"><img src="psd.png" alt="Imagen representativa de Branding"></div>
+            <h3>Adobe Photoshop</h3>
+            <p>★★★★☆</p>
+          </article>
+          <article class="skill-card">
+            <span class="card-number">02</span>
+            <div class="skill-card-media"><img src="aii.png" alt="Imagen representativa de Diseño gráfico"></div>
+            <h3>Adobe Illustrator</h3>
+            <p>★★★★★</p>
+          </article>
+          <article class="skill-card">
+            <span class="card-number">03</span>
+            <div class="skill-card-media"><img src="premier.png" alt="Imagen representativa de Edición de video">
+            </div>
+            <h3>Adobe Premiere Pro</h3>
+            <p>★★★☆☆</p>
+          </article>
+          <article class="skill-card">
+            <span class="card-number">05</span>
+            <div class="skill-card-media"><img src="indesign.png" alt="Imagen representativa de Diseño 3D"></div>
+            <h3>Adobe InDesign</h3>
+            <p>★★☆☆☆</p>
+          </article>
+          <article class="skill-card">
+            <span class="card-number">04</span>
+            <div class="skill-card-media"><img src="blender.png" alt="Imagen representativa de Contenido digital"></div>
+            <h3>Blender</h3>
+            <p>★★★★☆</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section work-section reveal" id="work">
+      <div class="section-inner work-grid">
+        <div>
+          <h2>Mis trabajos✦</h2>
+          <p class="section-description">
+            Ideas que pasaron de mi cabeza a convertirse en algo real. Esta es una selección de algunos de mis proyectos
+            favoritos, donde he podido experimentar con diferentes
+            estilos, técnicas y formas de comunicar.
+          </p>
+        </div>
+        <article class="work-preview-card">
+          <a class="work-preview-image" href="work.html" aria-label="Ver proyecto destacado">
+            <img src="aleg_autoretrato_efoh5.jpg" alt="Vista previa de un trabajo destacado">
+          </a>
+          <div class="work-preview-info">
+            <div>
+              <small>Proyecto destacado · 01</small>
+              <h3>Autoretrato</h3>
+            </div>
+          </div>
+          <a class="primary-button" href="work.html">Ver todos los proyectos<span aria-hidden="true"></span>✦</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <a class="footer-mark" href="#home" aria-label="Volver al inicio">
+        <img src="maremarca.png" alt="Marca personal Mare">
+      </a>
+      <p>Diseño con intención, detalle y personalidad.</p>
+      <nav class="footer-links" aria-label="Navegación del pie de página">
+        <a href="#about">Sobre mí</a>
+        <a href="work.html">Mi trabajo</a>
+        <a href="contact.html">contáctame</a>
+      </nav>
+      <small>© <span data-current-year></span> Ale García</small>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="main.js"></script>
+  <script src="jquery-interactions.js"></script>
+</body>
+
+</html>
