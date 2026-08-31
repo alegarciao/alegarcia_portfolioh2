@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Selección de proyectos creativos y digitales de Ale.">
+  <title>Mi trabajo | Portfolio Ale Garcia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="inner-page">
+  <header class="inner-header">
+    <nav class="navbar" aria-label="Navegación principal">
+      <a class="brand" href="index.html#home" aria-label="Ir al inicio">
+        <img src="marcamare1.png" alt="Marca personal Mare">
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-menu" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="main-menu">
+        <li><a class="nav-link" href="index.html#home">Menú</a></li>
+        <li><a class="nav-link" href="index.html#about">Sobre mí</a></li>
+        <li><a class="nav-link" href="index.html#skills">Skills</a></li>
+        <li><a class="nav-link active" href="work.html" aria-current="page">Mi trabajo</a></li>
+        <li><a class="nav-link" href="contact.html">contáctame</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page-main">
+    <section class="page-intro reveal is-visible">
+      <p class="eyebrow">Archivo creativo</p>
+      <h1>Mis trabajos</h1>
+      <p>Una colección de mis proyectos favoritos!</p>
+    </section>
+
+    <section class="projects-section" aria-label="Lista de proyectos">
+      <article class="project-card project-pink reveal">
+        <div class="project-gallery">
+          <div class="project-visual project-visual-main">
+            <img src="bajoomaestro.png" alt="Imagen principal del proyecto Bajo Maestro">
+          </div>
+          <div class="project-mini-grid" aria-label="Imágenes adicionales del proyecto">
+            <figure class="project-mini-card"><img src="cartaamar.png" alt="Detalle del proyecto Bajo Maestro 1">
+            </figure>
+            <figure class="project-mini-card"><img src="cartamora.png" alt="Detalle del proyecto Bajo Maestro 2">
+            </figure>
+            <figure class="project-mini-card"><img src="cartaroja.png" alt="Detalle del proyecto Bajo Maestro 3">
+            </figure>
+          </div>
+        </div>
+        <div class="project-info">
+          <p>Juego de mesa Boliviano</p>
+          <h2>¡Bajo Maestro!</h2><span>Juego de mesa inspirado en los trufis, lugares turísticos y jergas
+            Cochalas.</span>
+        </div>
+      </article>
+      <article class="project-card project-blue reveal">
+        <div class="project-visual">
+          <img src="cartelbicebe.jpg" alt="Imagen principal del proyecto de experiencia web">
+        </div>
+        <div class="project-info">
+          <p>Bienal de diseño y cartel Bolivia</p>
+          <h2>Cartel BICeBé</h2><span>Tema: Desacelerar para avanzar, cartel elegido</span>
+        </div>
+      </article>
+      <article class="project-card project-cream reveal">
+        <div class="project-visual project-video-card" tabindex="0" role="button"
+          data-youtube-url="https://www.youtube.com/watch?v=3AaPkpNVSSI"
+          aria-label="Reproducir video de YouTube del proyecto de modelado 3D">
+          <img class="project-video-poster" src="habitacion.png" alt="Vista previa del proyecto de modelado 3D">
+          <div class="project-youtube" aria-hidden="true"></div>
+          <h2 span class="video-hint">Pasa el cursor para reproducir</h2>
+        </div>
+        <div class="project-info">
+          <p>Diseñ0 3D</p>
+          <h2>Modelado 3D</h2><span>Creación de una tienda de vinilos en blender.</span>
+        </div>
+      </article>
+
+      <div class="project-pair-row reveal" aria-label="Proyectos de diseño web">
+        <div class="project-pair-heading">
+          <p>Páginas web</p>
+          <h2>Diseño web</h2>
+          <span>Páginas web creadas con Visual Studio Code.</span>
+        </div>
+        <article class="project-card project-card-compact project-blue">
+          <div class="project-visual project-image-landscape">
+            <img src="flores.png" alt="Captura horizontal del primer proyecto web">
+          </div>
+        </article>
+
+        <article class="project-card project-card-compact project-blue">
+          <div class="project-visual project-image-landscape">
+            <img src="annacokis.png" alt="Captura horizontal del segundo proyecto web">
+          </div>
+        </article>
+      </div>
+
+      <article class="project-card project-pink reveal">
+        <div class="project-visual project-video-card" tabindex="0" role="button"
+          data-youtube-url="https://www.youtube.com/watch?v=VHqSiFZloh0"
+          aria-label="Reproducir video de YouTube del proyecto audiovisual 05">
+          <img class="project-video-poster" src="cholita.png" alt="Vista previa del proyecto audiovisual 05">
+          <div class="project-youtube" aria-hidden="true"></div>
+          <h2 span class="video-hint">Pasa el cursor para reproducir</h2>
+        </div>
+        <div class="project-info">
+          <p>Modeling digital</p>
+          <h2>Cholita sin cabeza 3D</h2>
+          <span>Creación de personaje esculpido en 3d en blender, de la leyende boliviana "La cholita sin
+            cabeza".</span>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <a class="footer-mark" href="index.html"><img src="maremarca.png" alt="Marca personal Mare"></a>
+      <p>Diseño con intención, detalle y personalidad.</p>
+      <nav class="footer-links" aria-label="Navegación del pie de página"><a href="index.html#about">Sobre mí</a><a
+          href="work.html">Mi trabajo</a><a href="contact.html">contáctame</a></nav>
+      <small>© <span data-current-year></span> Ale García</small>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="main.js"></script>
+  <script src="jquery-interactions.js"></script>
+</body>
+
+</html>
